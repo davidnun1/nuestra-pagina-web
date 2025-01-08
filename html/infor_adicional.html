@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>william_Christhian</title>
+    <link rel="stylesheet" href="../estilos/williamescoberCSS.css">
+</head>
+<body>
+<header>
+    <!-- Menú de navegación -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="alimentacion.html">Alimentacion</a></li>
+            <li><a href="tecnicas.html">Tecnicas</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="infor_adicional.html">Informacion adicional</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <br>
+    <br>
+    <form action="https://httpbin.org/post" method="POST">
+        <fieldset>
+            <legend><h1 id="h11111">Información Personal</h1></legend>
+            <br>
+
+            <label for="apellido">Apellido (Máx. 50 caracteres):</label>
+            <input type="text" id="apellido" name="apellido" maxlength="50" required>
+            <br><br>
+
+
+            <label for="nombre">Nombre (Máx. 50 caracteres):</label>
+            <input type="text" id="nombre" name="nombre" maxlength="50" required>
+            <br>
+            <input type="submit" value="Enviar">
+            <br><br>
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+
+            <label for="fechaNacimiento">Fecha de Nacimiento:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+            <br><br>
+            <br>
+
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="nacionalidad">Nacionalidad:</label>
+            <select id="nacionalidad" name="nacionalidad" required size="2" multiple>
+                <option value="española" selected>Española </option>
+                <option value="otra">Otra</option>
+            </select>
+            <br><br>
+
+
+            <label>Género:</label>
+            <input type="radio" id="masculino" name="genero" value="masculino" required>
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="femenino" name="genero" value="femenino" required>
+            <label for="femenino">Femenino</label>
+            <br><br>
+
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="comentarios">Otros Comentarios:</label>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
+            <br><br>
+
+
+            <label for="masInfo">¿Desea recibir más información?</label>
+            <input type="checkbox" id="masInfo" name="masInfo" checked>
+            <br><br>
+        </fieldset>
+
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="limpiar datos">
+    </form>
+    <br>
+    <br>
+    <br>
+    <h2>Ubicación del IES Las Encinas</h2>
+    <br>
+    <p>Aquí puedes ver la ubicación del IES Las Encinas, en Villanueva de la Cañada, Madrid:</p>
+
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3035.9041321987156!2d-3.9957363588800403!3d40.455258771552366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4199649907c035%3A0xde268cbd8bf968be!2sAv.%20Mirasierra%2C%208%2C%2028691%20Villanueva%20de%20la%20Ca%C3%B1ada%2C%20Madrid!5e0!3m2!1ses!2ses!4v1732698338919!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+<br>
+    <br>
+
+    <a id="a3" href="https://docs.google.com/document/d/1_SltUesW8dgjTtwvdZizlrGtJ5zxuz4XrMdWdkV3jzs/edit?usp=sharing" target="_parent"> Dale click para Abrir Documento en Línea</a>
+    <br>
+    <br>
+</main>
+
+<footer>
+    <!-- Pie de página con información legal -->
+    <br>
+    <p><strong>Autor:</strong> William Nuñez - Christhian Escober</p>
+    <p><strong>Dirección:</strong> IES LAS ENCINAS Villanueva de la cañada, Madrid</p>
+    <p><strong>Contacto:</strong> isaacescober123@gmail.com</p>
+<br>
+    <!-- Línea horizontal que separa el contenido -->
+    <hr>
+
+    <!-- Enlaces a redes sociales -->
+    <p><strong>Sígueme en redes sociales:</strong></p>
+    <a href="https://www.instagram.com/invites/contact/?igsh=w61j9r1xdfz4&utm_content=488mvo4" target="_blank">
+        <img src="../imagenes/descarga.png" height="28" width="28" alt="12"></a>
+
+    <a href="https://twitter.com/cristian_78_" target="_blank">
+        <img  src="../imagenes/descarga(1).png" height="28" width="28" alt="13">
+    </a>
+    <br>
+</footer>
+</body>
+</html>
